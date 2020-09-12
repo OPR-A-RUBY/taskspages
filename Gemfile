@@ -17,6 +17,7 @@ gem 'bootsnap', '>= 1.4.2', require: false # Reduces boot times through caching;
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw] # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+  gem 'rspec-rails' ### ADD
   gem 'faker' ### ADD
 end
 
@@ -31,7 +32,6 @@ group :test do
   gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'
   gem 'webdrivers'
-  gem 'rspec-rails' ### ADD
   gem 'factory_bot_rails' ### ADD
   gem 'shoulda-matchers' ### ADD
 end
